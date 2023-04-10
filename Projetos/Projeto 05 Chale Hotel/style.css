@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+    /* border: solid .5px red;     */
+}
+ul, li, a{
+    list-style: none;
+}
+
+
+header{
+    margin: 0 auto;
+    height: 250px;
+    max-width: 88%;
+    background: url(/Projetos/Aquivos/Imagens/Projeto\ 05\ \(Chale\ Hotel\)/topo-imagem-principal.png) no-repeat left; 
+
+    
+    display: flex;
+
+    align-items: top;
+    justify-content:space-between;
+
+    display: flex;
+    
+
+}
+
+.container{
+    background: url(/Projetos/Aquivos/Imagens/Projeto\ 05\ \(Chale\ Hotel\)/topo-imagem-lateral.png) no-repeat left; 
+    
+    height: 250px;
+     
+    width: 470px;   
+    
+    
+}
+
+.logo{
+    background:url(/Projetos/Aquivos/Imagens/Projeto\ 05\ \(Chale\ Hotel\)/logo.png) no-repeat left;
+    background-size: contain;
+    
+    width: 151px;
+    height: 66px;
+
+    margin: 15px;   
+}
+
+.lateral{
+    height: 250px;
+    border: none;
+    display: grid;
+    
+    justify-content: center;
+    grid-template-columns: 90px minmax(200px,545px);
+    grid-template-rows: minmax(40px,50px) 1fr;
+}
+
+.caixa-reserva{
+    grid-column: 2/3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding-right: 10px;
+}
+
+.caixa-reserva .reserva{
+    border-bottom: solid 2px rgb(98, 114, 38) ;
+    border-top: solid 2px rgb(98, 114, 38) ;
+
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.reserva p{
+    padding: 5px 0;
+    color: rgb(98, 114, 38);
+    font-weight: bold;
+    
+}
+.reserva input[type="text"]{
+    padding: 4px 10px;
+    color: rgb(98, 114, 38);
+    font-weight: bold;
+    background: rgb(255,255,255,0);
+    border: none;
+    width: 100%;
+}
+.reserva input[type="button"]{
+    padding: 3px 10px;
+    color: wheat;
+    font-weight: bold;
+    background: rgb(98, 114, 38);
+    border: none;
+}
+
+.elenav{
+    grid-column: 2;
+    display: flex;
+}
+
+.elegante{
+    background: url(/Projetos/Aquivos/Imagens/Projeto\ 05\ \(Chale\ Hotel\)/depoimento.png) no-repeat center;
+    background-size: contain;
+     
+    width: 100%;
+    
+}
+
+.elenav nav li{
+    padding: .5em 0 .5em .5em;
+    
+    
+}
+.elenav nav li:hover{
+    background: lightgoldenrodyellow;
+}
+
+.elenav a:link, .elenav a:visited{
+    color: rgb(98, 114, 38) ;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+main{
+    width: 88%;
+    margin: 0 auto;
+
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    
+}
+
+.principal{
+    background: rgb(255, 254, 207);
+    box-shadow: inset 3px 3px 10px rgba(0,0,0,0.5),
+                inset -3px -3px 15px rgba(0,0,0,0.5);
+}
+.principal h2{
+    padding: 20px;
+    color: rgb(98, 114, 38) ;
+    text-decoration: none;
+    font-weight: bold;
+}
+.principal p{
+    padding: 0px 20px 20px 20px;
+    
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ambientes{
+    display: block;
+    
+    padding: 10px;
+
+    background: rgb(226, 204, 149);
+}
+
+.ambientes img{
+    width: 170px;
+    
+    border-radius: 10px;
+    margin-left: 10px;
+    /* margin: 0 auto; */
+    margin-right: 10px;
+}
+
+.campo{
+    border-top: solid 1px whitesmoke;
+    border-bottom: solid 1px whitesmoke;
+
+    padding: 10px;
+    
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap:wrap-reverse ;
+    align-items: center;
+    
+    justify-content: left;
+   
+}
+
+.descricao{
+    display: flex;
+    justify-content:space-around;
+    max-width: 30ch ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+    
+}
+.descricao h4{
+    color: rgb(98, 114, 38) ;
+    margin-bottom: 10px;
+    
+}
+
+
+footer{
+    width: 88%;
+    margin: 0 auto;
+    padding: 1.5em;
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1230px) {
+    .container{
+        width: 639px;
+    }
+    
+}
+
+
+
+
+

@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: #e9e9e9;
+}
+
+
+header{
+    background-color: rgb(255, 200, 20);
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    
+    width: 100%;
+    
+}
+
+h2{
+    margin: 0;
+}
+p{
+    margin: 0;
+
+}
+
+span{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(48, 48, 48);
+        
+}
+.cabeçalho{
+    margin: 15px;
+}
+.blog{
+    color: white;
+}
+.navigation{
+    margin: 15px;
+
+}
+a , header a:visited{
+    padding: 8px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+header a:hover {
+    color:rgb(255, 200, 20) ;
+    background: white;
+}
+
+.principal{
+    
+    
+    width: 1080px;
+    
+    margin-top: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+}
+
+.principal p{
+    margin: 5px;
+}
+.post-area{
+    float: left;
+}
+.postagem{
+    background: white;
+    width: 700px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+
+
+    
+    
+}
+
+
+.posttitle{
+    color:rgb(255, 200, 20) ;
+}
+
+h3{
+    background: gray;
+    padding: 10px;
+    margin: 0;
+}
+
+.anexo-lateral{
+    background: white;
+    width: 300px;
+    
+    border-radius: 10px;
+    float: right;
+    margin-bottom: 10px;
+    
+
+    padding: 15px;
+    
+}
+
+.postsrecents p{
+    margin: 5px;
+}
+
+.leiamais:link, .leiamais:visited{
+    color: rgb(255, 200, 20);
+
+}
+.leiamais:hover, .leiamais:focus{
+    color: rgb(255, 146, 57);
+}
+
+
+
+.anexo-lateral a:link,.anexo-lateral a:visited{
+    color: rgb(255, 200, 20);
+}
+.categlinks{
+    margin-top: 10px;
+}
+
+.anexo-lateral a:hover, .categorias a:focus {
+    color: rgb(255, 146, 57);
+}
+
+
+img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+footer{
+    background: gray ;
+    padding: 30px;
+    
+    clear: both;
+    text-align: center;
+   
+    
+    margin-left: auto;
+    margin-right: auto;
+}

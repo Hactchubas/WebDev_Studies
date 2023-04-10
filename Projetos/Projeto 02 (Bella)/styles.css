@@ -1,0 +1,220 @@
+
+
+body{
+    background-image: url(/Projetos/Aquivos/Imagens/Projeto\ 02\ \(Bella\)/fundo.png)
+    
+}
+
+.capa{
+    width: 100%;  
+}
+.head{
+        
+    
+    margin-left: auto;
+    margin-right:auto;
+    width:70%;
+}
+
+.navigation{
+    margin-left: auto;
+    margin-right:auto;
+    
+    width: 70%;
+    background-color: #d2ddbe ;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 3em;
+    font: 1vw ;
+    color: rgb(20, 36, 87);
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    color: rgb(20, 36, 87);
+    margin-left: auto;
+    margin-right: auto;
+
+    text-decoration: none ;
+}
+a:visited{
+    color: rgb(20, 36, 87);
+    
+}
+
+.content{
+    background-color: rgb(240, 236, 221);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: .01em;
+    padding-bottom: .01em;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.foto{
+    width: 40%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: solid 3px rgb(131, 116, 63);
+}
+
+h3{
+    color: rgb(131, 116, 63);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    margin-left: 10px;
+}
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #d2ddbe ;
+    text-align: center;
+    height: 3em;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: rgb(20, 36, 87);
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.grupo{
+    
+    border: 0;
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+fieldset{
+    border: 0;
+}
+
+
+
+
+.campo{    
+    display: block;
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    display: block;
+}
+.campo input, textarea{
+    display: inline-block;
+
+    border:rgb(131, 116, 63) 1px solid;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+
+    display: block;
+}
+
+
+.btn{
+    font-size: 1.2em;
+    display: block;
+    cursor: pointer;
+   
+    margin-bottom: 1em;
+    background: rgb(153, 136, 74);
+    color: #111111;
+    padding: 0.2em 0.6em;
+
+    box-shadow: 2px 2px 5px rgba(188, 235, 235, .01);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+
+
+    position: relative;
+    margin-top: 3em;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn:hover{
+    background-color: rgb(185, 142, 49);
+    
+}
+
+input:focus , textarea:focus{
+    background-color: rgba(188, 235, 235, .01);
+   
+}
+input,textarea,.btn{
+    border-radius: 5px;
+}
+
+#imgcontact{   
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+    border: solid rgb(131, 116, 63) 5px;
+    
+    
+    
+}
+
+@media only screen and (max-width: 950px) {
+    .head{
+      width: 100%;
+    }
+    .navigation{
+        width: 100%;
+        height: 3em;
+        font-size: 2vw;
+    }
+    .content{
+        width: 100%;
+    }
+    .foto{
+        width: 90%;
+    }
+    footer{
+        width: 100%;
+    }
+    #imgcontact{
+        width: 90%;
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+    }
+    fieldset{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: block;
+        
+    }
+    .campo{
+        display: block;
+        
+
+    }
+
+    
+  }
+
