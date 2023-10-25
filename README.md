@@ -1,2 +1,2 @@
-# Desenvolvimento-Web-Completo---20-cursos-20-projeto-Udemy-
-Projetos desenvolvidos durante o curso
+# Desenvolvimento Web Completo 20 cursos 20 projeto - Udemy
+Alguns projetos desenvolvidos durante o curso
